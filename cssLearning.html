@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Learning</title>
     <style>
-        /* Name Selector */
-         p{
-          color: cadetblue;  
-        } 
-        /* Id Selector */
-        #java{
-            color: cadetblue;
-            font-size: larger;
-        }
-        /* Class Selector */
-        .nonDeveloper{
-            color: chocolate;
-            font-weight: bold;
-        }
-        /* Combinator Selector */
-         #java,.nonDeveloper{
-            background-color: dimgray;
-        } 
+      /* Name Selector */
+      h3 {
+        color: cadetblue;
+      }
+      /* Id Selector */
+      #java {
+        color: cadetblue;
+        font-size: larger;
+      }
+      /* Class Selector */
+      .nonDeveloper {
+        color: chocolate;
+        font-weight: bold;
+      }
+      /* Combinator Selector */
+      #java,
+      .nonDeveloper {
+        background-color: rgb(231, 219, 219);
+      }
+
+      #web{
+        color: blueviolet;
+      }
+
+      #learning{
+        text-decoration: underline;
+        font-size: larger;
+        font-weight: bolder;
+        text-transform: capitalize;
+        color: rgb(178, 102, 248);
+        text-align: left;
+        font-family: cursive;
+      }
+
     </style>
-</head>
-<body>
-    <h2 style="color: orange; background-color: grey;"> Professional Summary</h2>
-    <p> I am UI Developer </p>
-    <p id="java"> I am Java Developer</p>
-    <p class="nonDeveloper"> I am Test Engineer</p>
-    <p class="nonDeveloper"> I am Support Engineer</p>
-    <h2> Skills  </h2>
-    <p style="font-weight: bolder;"> HTML and CSS </p>
-    <p> JavaScript </p>
-</body>
+  </head>
+  <body>
+    <h2 style="color: orange; background-color: grey">Professional Summary</h2>
+    <p>I am UI Developer</p>
+    <p id="java">I am Java Developer</p>
+    <p class="nonDeveloper">I am Test Engineer</p>
+    <p class="nonDeveloper">I am Support Engineer</p>
+    <h3>Skills</h2>
+    <p style="font-weight: bolder">HTML and CSS</p>
+    <p>JavaScript</p>
+    <p> I am very good in <span id="web"> Web Development </span>  and DSA </p>
+    <p id="learning"> I am learning CSS and enjoying too. </p>
+
+  </body>
 </html>
